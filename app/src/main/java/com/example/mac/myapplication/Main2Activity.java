@@ -16,15 +16,16 @@ import java.util.Random;
 
 public class Main2Activity extends AppCompatActivity {
 
-    private Button button;
-    private TextView scView;
-    private TextView textView;
-    private int n;
-    private int score = 0;
+
+    public TextView scView;
+    public TextView textView;
+    public int n;
+    public int score = 0;
+    public Button button;
 
     private int rn(){
         Random random  = new Random();
-        int  x= random.nextInt(100);
+        int  x= random.nextInt(200);
         return x;
     }
     @Override
@@ -37,6 +38,11 @@ public class Main2Activity extends AppCompatActivity {
         if (item.getItemId()==R.id.nor){
             Intent nor = new Intent(this,MainActivity.class);
             startActivity(nor);
+
+        }
+        if (item.getItemId()==R.id.main2){
+            Intent main2 = new Intent(this,Main5Activity.class);
+            startActivity(main2);
 
         }
 
@@ -60,6 +66,7 @@ public class Main2Activity extends AppCompatActivity {
 
                 try{
                     int n2 = Integer.parseInt(n1);
+
                     if (n2 > n && n2-n > 10 ){
                         textView.setText("猜大了，坤坤对你很失望！扣两分");
                         score-=2;
@@ -95,7 +102,17 @@ public class Main2Activity extends AppCompatActivity {
                                 scView.setText("得分：" + score);
 
 
-                                    textView.setText("下一轮挑战开始，律师函上的数字刷新了！");
+                                if(score >= 20){
+                                    textView.setText("你真是赌神！坤坤很欣赏你！");
+                                }
+                                else if(score <= -20){
+                                    textView.setText("噢不，坤坤已经被篮球击中了！");
+
+                                }
+
+                                else {
+                                    textView.setText("下一轮挑战开始，篮球上的数字刷新了！");
+                                }
 
                             }
                         });
@@ -104,7 +121,7 @@ public class Main2Activity extends AppCompatActivity {
                             public void onClick(DialogInterface dialogInterface, int i) {
                                 score = 0;
                                 scView.setText("得分：" + score);
-                                textView.setText("游戏已经重新开始，律师函上的数字刷新了！");
+                                textView.setText("游戏已经重新开始，篮球上的数字刷新了！");
 
                             }
                         });

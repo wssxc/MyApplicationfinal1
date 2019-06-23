@@ -11,51 +11,70 @@
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="94dp"
-        android:layout_marginLeft="94dp"
-        android:layout_marginTop="78dp"
 
-        android:text="点击观看蔡徐坤经典视频！" />
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:onClick="op2"
+        android:text="点击观看蔡徐坤经典视频！"
+
+        android:textSize="20dp" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
+
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="69dp"
-        android:layout_marginLeft="69dp"
+
+
         android:layout_marginBottom="99dp"
-        android:text="欢迎来到蔡徐坤之家！"
-        android:textColor="@color/ac4"
+        android:layout_centerHorizontal="true"
+        android:text="欢迎来到娱乐区！"
+        android:textColor="@color/ac3"
         android:textSize="25dp" />
 
     <Button
         android:id="@+id/button10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
+
         android:layout_alignParentTop="true"
-        android:layout_marginStart="94dp"
-        android:layout_marginLeft="94dp"
-        android:layout_marginTop="159dp"
-        android:text="点击欣赏蔡徐坤动听歌曲！" />
+
+
+        android:layout_marginTop="250dp"
+        android:onClick="op3"
+        android:layout_centerHorizontal="true"
+        android:text="点击欣赏蔡徐坤动听歌曲！"
+        android:textSize="20dp" />
+
+
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:onClick="op4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="94dp"
-        android:layout_marginLeft="94dp"
-        android:layout_marginBottom="245dp"
-        android:onClick="op1"
-        android:text="点击游玩蔡徐坤专属游戏！" />
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dp"
+        android:text="蔡徐坤和孙笑川不得不说的故事"
+        android:textSize="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignStart="@+id/button7"
+
+        android:layout_alignParentTop="true"
+
+
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="43dp"
+        android:padding="10dp"
+        android:src="@drawable/timg7"
+        android:layout_marginLeft="17dp"
+        android:layout_alignLeft="@+id/button7" />
 </RelativeLayout>

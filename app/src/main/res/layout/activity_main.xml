@@ -6,7 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:background="@drawable/timg"
+
+
     >
+
+    <ImageView
+        android:id="@+id/iv"
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:padding="10dp"
+        android:src="@drawable/timg6" />
+
 
 
     <Button
@@ -46,9 +63,10 @@
         android:layout_marginStart="7dp"
         android:layout_marginLeft="7dp"
         android:layout_marginTop="54dp"
-        android:textSize="17dp"
         android:text="坤坤向你发来律师函！上面有一个神秘数字，这个数在0-100之间，请务必猜对！"
-        android:textColor="@color/colorPrimary" />
+        android:textColor="@color/colorPrimary"
+
+        android:textSize="17dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -58,6 +76,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="343dp"
         android:textColor="@color/colorPrimary"
+        android:typeface="normal"
         android:textSize="22dp" />
 
     <TextView

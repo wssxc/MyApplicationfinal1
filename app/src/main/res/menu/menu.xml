@@ -4,9 +4,13 @@
 
     <item
         android:id="@+id/hard"
-        android:title="困难模式" />
+        android:title="困难模式"
+
+
+        />
     <item
 
 
-        android:title="其他" />
+        android:id="@+id/main1"
+        android:title="主页" />
 </menu>

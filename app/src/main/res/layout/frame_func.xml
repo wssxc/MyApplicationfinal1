@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/funcTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="蔡徐坤与孙笑川"
+        android:textSize="30sp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="孙笑川，男，四川人 ，英雄联盟主播 自以为辅助优秀，自封mata川。
+
+其粉丝以嘴臭，喜欢带孙笑川的节奏著名。
+微博名‘带带大师兄’，所以会经常看到粉丝在各种事件后面带节奏玩梗“凶手找到了，微博名：‘带带大师兄’”
+从来都是职业背锅，微博上坏事9成都是他干的。
+然而这次，孙笑川似乎惹上了不该惹得人。新晋小生蔡徐坤在演唱会上遭激光笔照射，并且频频照射眼睛直接蹲下了，无奈找不到使用激光笔的人，无计可施。
+大师兄却主动拦锅，有人证有物证，更是嚣张到自己全程直播作案！！！
+还有高仿号钓鱼执法！
+当然这只是孙笑川的黑粉们演的一出好戏。这招对于普通流量小生的粉丝可能会造成二者相撕的局面。但对于热衷于看孙笑川笑话的黑粉来说，只会欣喜专业带节奏这么多年了，终于有粉丝上钩了。
+于是蔡徐坤的粉丝被忽悠得团团转，都以为是带带大师兄照的，跑到他微博下去谩骂。
+至于人在家中坐，锅从天上来的大师兄，在干了9999件坏事之后这次扛不住了居然关了评论。
+从一开始就胜负已分，大师兄一直在不败之地，小粉丝第一次遇到这种对手，骂得越凶，狗粉越开心。
+大师兄光脚的不怕穿鞋的，又没有偶像包袱，蔡就不一样了，在这次粉丝智商测试中，和皮几万遇到的紫光阁地沟油一样让人看了笑话。
+怎么看这事儿？我觉得其实是个误会，挑事的那位大兄弟应该只是随手安排一下，也没想到玩的这么大。
+现在的小粉丝们串联起来也是听风就是雨，成功激起一帮人看笑话的心思，小朋友被大流氓玩的团团转，等他们回过味来就玩不转了。
+在这个娱乐至死，网络无责的年代，只是可惜流量明星的低龄低智的粉丝遇到了一群娱乐至上，口嗨无敌，蒂花之秀，路见不平，钟情抽象，习惯搞笑的隐藏群体。
+当然在此之后，蔡徐坤便几乎成了和孙笑川绑定在一起的“梗”，但凡有蔡徐坤的地方都会看到孙笑川的影子。这也成了一种网络流行文化。" />
+
+</LinearLayout>

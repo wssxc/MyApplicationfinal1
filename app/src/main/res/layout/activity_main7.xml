@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/timg15"
+    tools:context=".Main7Activity">
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:onClick="op44"
+        android:text="猜数字（普通）"
+
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+
+
+        android:layout_marginTop="250dp"
+        android:onClick="op33"
+        android:layout_centerHorizontal="true"
+        android:text="猜数字（困难）"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+
+
+        android:layout_marginTop="350dp"
+        android:onClick="op22"
+        android:layout_centerHorizontal="true"
+        android:text="猜拳游戏"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+
+
+        android:layout_marginTop="2dp"
+        android:layout_centerHorizontal="true"
+        android:text="欢迎来到游戏区！"
+        android:textColor="@color/ac3"
+        android:textSize="25dp" />
+
+</RelativeLayout>

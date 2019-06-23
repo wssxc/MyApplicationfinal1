@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/settingTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="孙笑川"
+        android:textSize="30sp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="带带大师兄，网络流行词，是网红主播孙笑川的微博昵称，网友通常叫他大师兄。网友喜欢将一些事恶搞到他的名头上，也被认为是网络第一背锅侠。 他就是抽象TV的二号人物孙笑川，也叫做mata川、网恋教父，微博ID叫做“带带大师兄”。
+网络上流传关于该词相关的梗是所有的坏事都是他干的，烧杀抢夺奸淫掳掠，简直无恶不作，令人发指。
+因为mata川以前在直播的时候经常教别人谈网恋，怎么在网上聊妹子，号称网恋教父。2015年，带带大师兄网恋被骗8000块，站在成都双流机场一个晚上。第二次是异地恋，牵了牵手，被骗两万。在恋爱的道路上，大师兄越走越偏。后来这个段子被写进暴走大事件，带带大师兄走红网络，他本人也成为了抽象工作室真正的牌面。经常看到各种微博评论和弹幕刷该词，若你要问他是谁，千千万万的网友们会告诉你：八国联军侵华烧毁圆明园就是他带的路、他就是白百合出轨的男模、他是刘洲成的小号、打断迪迦奥特曼腿的就是他、比特币病毒就是他干的...."
+        />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="220dp"
+        android:layout_height="180dp"
+
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="43dp"
+        android:padding="10dp"
+        android:src="@drawable/timg7" />
+</LinearLayout>

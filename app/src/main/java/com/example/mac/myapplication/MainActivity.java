@@ -12,11 +12,12 @@ import android.widget.EditText;
 import android.widget.TextView;
 import java.util.Random;
 public class MainActivity extends AppCompatActivity {
-    private Button button;
-    private TextView scView;
-    private TextView textView;
-    private int n;
-    private int score = 0;
+
+    public TextView scView;
+    public TextView textView;
+    public int n;
+    public int score = 0;
+    public Button button;
 
 
     private int rn(){
@@ -37,6 +38,11 @@ public class MainActivity extends AppCompatActivity {
             startActivity(hard);
 
         }
+        if (item.getItemId()==R.id.main1){
+            Intent main1 = new Intent(this,Main5Activity.class);
+            startActivity(main1);
+
+        }
 
         return super.onOptionsItemSelected(item);
     }
@@ -47,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         textView = findViewById(R.id.textView3);
         n= rn();
         button = findViewById(R.id.button);
